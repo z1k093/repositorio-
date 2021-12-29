@@ -1,0 +1,140 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3e6e8;
+background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+}
+.titular{
+    color: brown;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    text-align: center;
+    border: black 2px solid;
+}
+.menu{
+    background-color: khaki;
+    padding: 0;
+    list-style-type: none;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: firebrick;
+    display: inline-block;
+    padding: 20px;
+}
+.menu li a:hover{
+    color: gold;
+    background-color: maroon;
+    border-radius: 50%;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.img{
+    width: 400px;
+    height: 300px;
+    opacity: .5;
+    border: 2px double gray;
+}
+.img:hover{
+    opacity: 1;
+    border: solid white 2px;
+}
+
+.font1{
+    
+    color: crimson;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: darksalmon;
+    border: black 2px solid;
+    margin: 10px;
+    
+}
+.font2{
+    color: crimson;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: darksalmon;
+    text-align: left;
+    border: black 2px solid;
+    
+}
+.sobre{
+    color: maroon;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    
+}
+.font3{
+    color: crimson;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: darksalmon;
+    border: black 2px solid;
+    
+
+
+}
+.formulario{
+    color: maroon;
+    font-family: 'Oswald', sans-serif;
+    background-color: darksalmon;
+    border: black 2px solid ;
+    
+
+}
+.footer{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer{
+    color: black;
+    
+    
+    
+    
+}
+.footer div:hover{
+    color: gold;
+    background-color: maroon;
+    border-radius: 100%;
+    font-weight: bold;
+    justify-content: space-around;
+
+
+}
+.div{
+    justify-content: center;
+    align-items: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: space-around;
+ }
+@media screen and (max-width:1000px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
